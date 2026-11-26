@@ -35,14 +35,14 @@ module tt_um_SEMAFORO (
     end
 
     // Salidas originales del semáforo
-    wire R = ~a & ~b;
-    wire A =  a & ~b;
-    wire V =  b;
+    wire led_rojo     = ~a & ~b;
+    wire led_amarillo =  a & ~b;
+    wire led_verde    =  b;
 
     // Salidas generales
-    assign uo_out[0] = V;
-    assign uo_out[1] = A;
-    assign uo_out[2] = R;
+    assign uo_out[0] = led_verde;
+    assign uo_out[1] = led_amarillo;
+    assign uo_out[2] = led_rojo;
     assign uo_out[3] = 1'b0;
     assign uo_out[4] = 1'b0;
     assign uo_out[5] = 1'b0;
