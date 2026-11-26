@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "Semaforo Gray up/down"      # Project title
+  title:        "Semaforo G"      # Project title
   author:       "Gerardo"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Semaforo de 3 luces R, A, V"      # One line description of what your project does
